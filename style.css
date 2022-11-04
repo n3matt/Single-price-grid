@@ -121,7 +121,9 @@ main > div {
 
 @media (max-width: 767px) {
     main {
-        grid-template-columns: 350px;
+        grid-template-columns: 360px;
+        box-shadow: none;
+        border-radius: 0;
         grid-template-areas:
             "header"
             "price"
